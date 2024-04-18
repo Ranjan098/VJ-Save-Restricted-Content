@@ -14,7 +14,7 @@ api_hash = environ.get("HASH", "f25113b8c17dca6fa7abda53a86bd4f7")
 api_id = environ.get("ID", "12606917")
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
-ss = environ.get("STRING", "")
+ss = environ.get("STRING", "AQDAXcUAXmnryuixZKCwPpcN6hEyK6Ur9qpu2v2Kf5doV38K4h8_lsAnRhYDx2RnZO-tJpZbfbPgESAcg8-scSsHScdq3iFr-MpIgezLacpTT-vjHWryOwqNzpjRbo8d9i5BnVEuM1_DlXEDtB85eOiK-1GXd-9gt3aQr8iBBE10wLZXZvY-2j68XCYVRoXKxzuOjzfxwN07dRepJG1CwjPb7D8s3eUwH_uRL2GCooUxD-G_3duWY58XaMuVArFgnA_TnN-0SVi8Iv3GgcqV0peG8I0ueD8YLc5hlQzTKPu6qLjbl1yxv69O6NqLnyWsxVW0MX9k11xpxDSOMh8HJOKzeas2nQAAAAE8_fPSAA")
 if ss is not None:
 	acc = Client("myacc" ,api_id=api_id, api_hash=api_hash, session_string=ss)
 	acc.start()
